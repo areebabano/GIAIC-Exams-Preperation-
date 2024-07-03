@@ -1,5 +1,7 @@
 // Named Export 
+// export variable 
 export let person = "Maheen";
+// export function 
 export function student() {
     console.log("GIAIC student...");
 }

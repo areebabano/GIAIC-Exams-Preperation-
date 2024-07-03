@@ -1,5 +1,7 @@
-import { person, student } from "./index1.js";
+// import named export 
+import { person, student } from "./export.js";
 console.log(person);
 student();
-import student1 from "./index1.js";
+// import default export  
+import student1 from "./export.js";
 console.log(student1);
